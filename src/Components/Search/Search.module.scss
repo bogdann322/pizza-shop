@@ -1,0 +1,46 @@
+.search{
+    position: relative;
+    left: -120px;
+}
+
+.input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+    padding-left: 42px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 16px;
+    &:focus{
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    opacity: 0.5;
+    left: 12px;
+    top: 12px;
+}
+
+.clearIcon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    opacity: 0.3;
+    right: 15px;
+    top: 15px;
+
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 1400px) {
+    .search{
+        position: relative;
+        left: 0px;
+    }
+  }
