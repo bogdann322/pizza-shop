@@ -16,7 +16,7 @@ const EmptyCart:React.FC = () => {
 					To order a pizza, go to the main page.
 				</p>
 				<img src={emptyCart} alt='Empty cart' />
-				<Link to='/' className='button button--black'>
+				<Link to='/pizza-shop/' className='button button--black'>
 					<span>Go to main page</span>
 				</Link>
 			</div>
